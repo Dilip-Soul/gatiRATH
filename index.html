@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gatiRATH - Ride Fare Comparison</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #0088cc;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #006699;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #e6f7ff;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 3rem 2rem;
+    }
+
+    .feature {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .feature h3 {
+      margin-bottom: 1rem;
+      color: #0088cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>gatiRATH</h1>
+    <p>Compare & Book Rides Easily</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Find the Best Ride at the Best Price</h2>
+    <p>gatiRATH compares real-time fares from Ola, Uber, Rapido, and more to help you get the cheapest and most convenient ride — even pet-friendly and local taxis!</p>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature">
+      <h3>Real-Time Fare Comparison</h3>
+      <p>See prices from different ride-hailing services for your chosen route instantly.</p>
+    </div>
+    <div class="feature">
+      <h3>Direct Booking</h3>
+      <p>Book your ride directly from the app without switching between apps.</p>
+    </div>
+    <div class="feature">
+      <h3>Pet-Friendly Rides</h3>
+      <p>Choose rides that allow pets so your furry friends can travel too.</p>
+    </div>
+    <div class="feature">
+      <h3>Local Taxi Options</h3>
+      <p>Prefer local services? Book local taxis right from the app.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2025 gatiRATH. All rights reserved.</p>
+  </footer>
+</body>
+</html>
